@@ -1879,6 +1879,13 @@ const connectors = [{
 	],
 	js: 'connectors/klassikradio.de.js',
 	id: 'klassikradio',
+}, {
+	label: 'WSUM',
+	matches: [
+		'*://streamdb9web.securenetsystems.net/cirrusencore/WSUMFM',
+	],
+	js: 'connectors/wsum.js',
+	id: 'wsum',
 }];
 
 define(() => connectors);
